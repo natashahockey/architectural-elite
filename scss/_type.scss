@@ -1,0 +1,12 @@
+body {
+    font-size: $font-size-small;
+    
+    @media ($breakpoint-small) {
+        font-size: $font-size-medium;
+    }
+    
+    @media ($breakpoint-medium) {
+        font-size: $font-size-large;
+    }
+}
+
