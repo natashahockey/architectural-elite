@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="469px" height="245px" viewBox="0 0 469 245" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Image 2</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Home-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Home" transform="translate(-971.000000, -843.000000)">
+            <g id="Image-2" transform="translate(971.000000, 843.000000)">
+                <rect id="Rectangle-4" fill="#F9F9F9" x="0" y="0" width="469.412829" height="245"></rect>
+                <g id="No.-of-jobs" transform="translate(141.000000, 65.000000)" font-weight="600" font-family="Lato-Heavy, Lato" fill="#1C4996">
+                    <text id="24-HRS" font-size="54" line-spacing="54" letter-spacing="0.699999988">
+                        <tspan x="0" y="81">24 HR</tspan>
+                        <tspan x="155.807" y="81">S</tspan>
+                    </text>
+                    <text id="GET-A-JOB-IN" font-size="24" letter-spacing="2.72000003">
+                        <tspan x="3.96399984" y="24">GET A JOB I</tspan>
+                        <tspan x="163.472" y="24">N</tspan>
+                    </text>
+                    <text id="GUARANTEED" font-size="24" letter-spacing="1.72000003">
+                        <tspan x="3.76199987" y="110">GUARANTEE</tspan>
+                        <tspan x="163.974" y="110">D</tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

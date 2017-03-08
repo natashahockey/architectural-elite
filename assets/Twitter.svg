@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="31px" height="32px" viewBox="0 0 31 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Icon / Social / Twitter</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Home-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-weight="normal" font-family="FontAwesome" letter-spacing="-0.86823529" font-size="36">
+        <g id="Home" transform="translate(-1179.000000, -2233.000000)" fill="#55ACEE">
+            <g id="Footer" transform="translate(120.000000, 2189.000000)">
+                <g id="Icon-/-Social-/-Twitter" transform="translate(1059.000000, 42.000000)">
+                    <text>
+                        <tspan x="0" y="31"></tspan>
+                    </text>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
