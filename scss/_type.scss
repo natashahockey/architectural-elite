@@ -1,6 +1,6 @@
 body {
     font-size: $font-size-small;
-    font-family: lato;
+    font-family: lato, sans-serif;
     
     @media ($breakpoint-small) {
         font-size: $font-size-medium;
