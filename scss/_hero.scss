@@ -43,4 +43,8 @@
     @media ($breakpoint-medium){
         margin-bottom: 0;
     }
+    @media ($breakpoint-large) {
+        padding-bottom: 112px;
+        padding-top: 140px;
+    }
 }
