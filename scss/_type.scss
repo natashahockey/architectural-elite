@@ -19,7 +19,7 @@ p {
 h1 {
     font-size: 24px;
     color: $blue;
-    font-weight: bolder;
+    font-weight: 900;
     
     @media ($breakpoint-medium) {
         font-size: 36px;
@@ -29,7 +29,7 @@ h1 {
 h2 {
    font-size: 20px;
     color: $blue;
-    font-weight: bolder;
+    font-weight: 900;
     
     @media ($breakpoint-medium) {
         font-size: 24px;
@@ -37,9 +37,9 @@ h2 {
 }
 
 h3 {
-    font-size: 16px;
-    color: $type;
-    font-weight: 500;
+    font-size: 18px;
+    color: $orange;
+    font-weight: 700;
     
     @media ($breakpoint-small) {
         font-size: 18px;
@@ -51,8 +51,8 @@ h3 {
 }
 
 h4 {
-    font-size: 18px;
-    color: $orange;
-    font-weight: bold;
+    font-size: 16px;
+    color: $type;
+    font-weight: 500;
     
 }
