@@ -2,6 +2,8 @@ body {
     font-size: $font-size-small;
     font-family: "lato", sans-serif;
     line-height: 1.5;
+    max-width: 1024px;
+    margin: 0 auto;
     
     @media ($breakpoint-medium) {
         font-size: $font-size-medium;
