@@ -16,3 +16,16 @@
 .button-group .button:first-child {
     margin-right: 16px;
 }
+
+.back-button {
+    color: $type;
+    font-weight: 600;
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+.back-button img {
+    margin-right: 4px;
+    width: 17.5px;
+    height: 16px;
+}
