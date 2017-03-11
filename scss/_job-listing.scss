@@ -9,3 +9,22 @@
 .job-search {
     margin-bottom: 24px;
 }
+
+.post-object {
+    border-bottom: 1px solid $darkgrey;
+    margin-bottom: 24px;
+}
+
+.post-object:last-child {
+    border-bottom: 0;
+}
+
+.post-object h2 {
+    margin-bottom: 0;
+}
+
+.post-object h4:first-of-type {
+    color: $orange;
+    font-weight: 700;
+    margin-bottom: 0;
+}
