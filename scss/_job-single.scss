@@ -3,6 +3,13 @@
     margin-bottom: 0;
 }
 
+.job-single-title {
+    
+    @media ($breakpoint-medium) {
+        margin-bottom: 8px;
+    }
+}
+
 .job-single-category {
     margin-bottom: 16px;
 }
