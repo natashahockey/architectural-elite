@@ -56,3 +56,17 @@
         margin-right: 10px;
     }
 }
+
+.button.blue {
+    background-color: $blue;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.button-center {
+    text-align: center;
+}
+
+.button-center .button {
+    display: inline-block;
+}
