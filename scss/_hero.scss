@@ -13,4 +13,14 @@
     text-align: center;
     margin-bottom: 40px;
     padding: 0 20px;
+    
+    @media ($breakpoint-medium) {
+        font-size: 24px;
+        padding: 0 130px;
+        margin-bottom: 48px;
+    }
+    
+    @media ($breakpoint-large) {
+        font-size: 36px;
+    }
 }
