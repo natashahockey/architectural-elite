@@ -73,6 +73,12 @@
     text-align: center;
 }
 
+.button-center.button-center-small {
+    @media ($breakpoint-medium){
+        text-align: left;
+    }
+}
+
 .button-center .button {
     display: inline-block;
 }
