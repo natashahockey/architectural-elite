@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="12px" height="25px" viewBox="0 0 12 25" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Job-Details-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Job-Details-Desktop" transform="translate(-120.000000, -162.000000)" fill-rule="nonzero" fill="#333333">
+            <g id="Breadcrumb" transform="translate(120.000000, 162.000000)">
+                <path d="M17.6158728,16.3608975 L6.6849925,7.24833061 C6.48632801,7.08266576 6.24299734,7 6,7 C5.75666933,7 5.51367199,7.08266576 5.31567416,7.24833061 L-5.61587285,16.3608975 C-6.06886789,16.7382267 -6.13020055,17.4125527 -5.75187136,17.8652144 C-5.37287551,18.3195428 -4.70121619,18.3802088 -4.24788782,18.0025462 L6,9.45897308 L16.2472212,18.0025462 C16.7015495,18.3795421 17.3742088,18.3182094 17.7518714,17.8652144 C18.1302005,17.4125527 18.0688679,16.7382267 17.6158728,16.3608975 Z" id="Shape" transform="translate(6.000000, 12.625143) rotate(-90.000000) translate(-6.000000, -12.625143) "></path>
+            </g>
+        </g>
+    </g>
+</svg>
