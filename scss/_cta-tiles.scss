@@ -3,6 +3,7 @@
     
     @media ($breakpoint-medium) {
         display: block;
+        margin-top: 80px;
     }
 }
 
@@ -26,6 +27,7 @@
 .cta-tile img {
     height: 50px;
     width: auto;
+    transition: transform .2s ease;
 }
 
 .cta-tile .button {
@@ -39,4 +41,8 @@
 
 .cta-tile-dark {
     background-color: $darkblue;
+}
+
+.cta-tile:hover img {
+    transform: scale(1.2);
 }
