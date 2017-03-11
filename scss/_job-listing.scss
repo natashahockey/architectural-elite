@@ -1,0 +1,7 @@
+.filtering {
+    display: none;
+    
+    @media ($breakpoint-large) {
+        display: block;
+    }
+}
