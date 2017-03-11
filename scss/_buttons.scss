@@ -9,12 +9,21 @@
     color: $orange;
 }
 
-.button-group .button {
-    float: left;
+.button-group {
+    text-align: center;
+    margin-left: 0;
+}
+
+.button-group li {
+    display: inline-block;
 }
 
 .button-group .button:first-child {
-    margin-right: 16px;
+    margin-right: 8px;
+}
+
+.button-group .button:last-child {
+    margin-left: 8px;
 }
 
 .back-button {
