@@ -109,6 +109,10 @@
         display: block;
         margin-bottom: 50px;
     }
+    
+    @media ($breakpoint-large) {
+        margin-top: 56px;
+    }
 }
 
 .cv-button img {
