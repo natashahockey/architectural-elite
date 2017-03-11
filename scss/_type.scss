@@ -2,11 +2,11 @@ body {
     font-size: $font-size-small;
     font-family: lato, sans-serif;
     
-    @media ($breakpoint-small) {
+    @media ($breakpoint-medium) {
         font-size: $font-size-medium;
     }
     
-    @media ($breakpoint-medium) {
+    @media ($breakpoint-large) {
         font-size: $font-size-large;
     }
 }
