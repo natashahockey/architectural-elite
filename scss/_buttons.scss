@@ -1,0 +1,18 @@
+.button {
+    border-radius: 48px;
+    background-color: $orange;
+    padding: 16px 24px;
+}
+
+.button.hollow {
+    border-color: $orange;
+    color: $orange;
+}
+
+.button-group .button {
+    float: left;
+}
+
+.button-group .button:first-child {
+    margin-right: 16px;
+}
