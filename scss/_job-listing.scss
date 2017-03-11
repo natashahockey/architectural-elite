@@ -23,8 +23,18 @@
     margin-bottom: 0;
 }
 
+.post-object h4 {
+    @media ($breakpoint-medium){
+        margin-bottom: 16px;
+    }
+}
+
 .post-object h4:first-of-type {
     color: $orange;
     font-weight: 700;
     margin-bottom: 0;
+    
+    @media ($breakpoint-medium){
+        margin-bottom: 4px;
+    }
 }
