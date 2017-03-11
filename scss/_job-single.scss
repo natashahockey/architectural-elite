@@ -8,6 +8,10 @@
     @media ($breakpoint-medium) {
         margin-bottom: 8px;
     }
+    
+    @media ($breakpoint-large) {
+        font-size: 36px;
+    }
 }
 
 .job-single-category {
@@ -22,4 +26,18 @@
 .summary-sidebar {
     background-color: $lightgrey;
     padding: 40px 24px;
+    margin-bottom: 24px;
+    display: none;
+    
+    @media ($breakpoint-large) {
+        display: block;
+    }
+}
+
+.summary-sidebar p {
+    margin-bottom: 8px;
+}
+
+.summary-sidebar p:last-child {
+    margin-bottom: 0;
 }
