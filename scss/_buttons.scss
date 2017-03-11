@@ -20,12 +20,30 @@
 .back-button {
     color: $type;
     font-weight: 600;
-    font-size: 14px;
+    font-size: $font-size-small;
     vertical-align: middle;
+    margin-bottom: 24px;
+    display: block;
+    
+    
+    @media ($breakpoint-medium) {
+        margin-bottom: 32px;
+    }
+    
+    @media ($breakpoint-large) {
+        margin-bottom: 48px;
+        font-size: $font-size-medium;
+    }
 }
 
 .back-button img {
     margin-right: 4px;
     width: 17.5px;
     height: 16px;
+    
+    @media ($breakpoint-large) {
+        width: auto;
+        height: auto;
+        margin-right: 10px;
+    }
 }
