@@ -3,6 +3,24 @@
     
     @media ($breakpoint-medium) {
         display: block;
+        padding-right: 0;
+    }
+}
+
+.stats-images img {
+    margin-bottom: 4px;
+}
+
+.stats-images img:last-child {
+    margin-bottom: 0;
+}
+
+.quote-block-row {
+    position: relative;
+    margin-top: 40px;
+    
+    @media ($breakpoint-medium) {
+        margin-top: 0;
     }
 }
 
@@ -12,3 +30,25 @@
     padding: 32px 16px 24px;
 }
 
+.quote-block-image {
+    background-image: url('../assets/testimonial-image.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 350px;
+    
+    @media ($breakpoint-medium) {
+        height: auto;
+        position: absolute;
+        right: 0;
+        top: 0;
+        bottom: 0;
+    }
+}
+
+.main-copy {
+    
+    @media ($breakpoint-medium) {
+        margin-top: 80px;
+    }
+}
