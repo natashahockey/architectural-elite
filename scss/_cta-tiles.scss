@@ -1,0 +1,42 @@
+.cta-tiles {
+    display: none;
+    
+    @media ($breakpoint-medium) {
+        display: block;
+    }
+}
+
+.cta-tile {
+    padding: 40px 0 32px;
+    background-color: $blue;
+    color: white;
+    text-align: center;
+    
+    @media ($breakpoint-large) {
+        padding: 56px 0 40px;
+    }
+}
+
+.cta-tile h2 {
+    color: white;
+    margin: 32px 0;
+    font-weight: 700;
+}
+
+.cta-tile img {
+    height: 50px;
+    width: auto;
+}
+
+.cta-tile .button {
+    margin: 0;
+}
+
+
+.cta-tile-light {
+    background-color: $lightblue;
+}
+
+.cta-tile-dark {
+    background-color: $darkblue;
+}
