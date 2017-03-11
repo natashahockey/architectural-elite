@@ -1,0 +1,14 @@
+.stats-images {
+    display: none;
+    
+    @media ($breakpoint-medium) {
+        display: block;
+    }
+}
+
+.quote-block {
+    background-color: $lightgrey;
+    color: $blue;
+    padding: 32px 16px 24px;
+}
+
