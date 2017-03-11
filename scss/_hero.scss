@@ -1,6 +1,11 @@
 .hero {
     background: linear-gradient(90deg, $darkblue 0%, #005C97 100%);
     padding: 108px 0 40px;
+    margin-bottom: 40px;
+    
+    @media ($breakpoint-medium) {
+        margin-bottom: 80px;
+    }
     
     @media ($breakpoint-large) {
         padding: 216px 0 118px;
@@ -22,5 +27,13 @@
     
     @media ($breakpoint-large) {
         font-size: 36px;
+    }
+}
+
+.hero .button {
+    font-weight: 500;
+    
+    @media ($breakpoint-large) {
+        font-weight: 800;
     }
 }
