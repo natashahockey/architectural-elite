@@ -2,3 +2,9 @@
 .recruiters-intro {
     margin-bottom: 16px;
 }
+
+.recruiters-title {
+    @media ($breakpoint-large) {
+        font-size: 36px;
+    }
+}
