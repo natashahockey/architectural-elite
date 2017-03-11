@@ -9,6 +9,12 @@
     color: $orange;
 }
 
+.button.hollow.white {
+    border-color: white;
+    color: white;
+    background: transparent;
+}
+
 .button-group {
     text-align: center;
     margin-left: 0;
@@ -69,4 +75,9 @@
 
 .button-center .button {
     display: inline-block;
+}
+
+.button.white {
+    background-color: white;
+    color: $blue;
 }
