@@ -37,3 +37,10 @@
         font-weight: 800;
     }
 }
+
+.home-hero {
+    
+    @media ($breakpoint-medium){
+        margin-bottom: 0;
+    }
+}
