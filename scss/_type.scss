@@ -58,3 +58,22 @@ h4 {
     font-weight: 500;
     
 }
+
+blockquote {
+    color: $blue;
+    border-left: 0;
+    font-weight: 600;
+    padding: 0;
+    margin-top: 16px;
+}
+
+cite {
+    color: $blue;
+    font-weight: 900;
+    font-style: normal;
+    margin-bottom: 40px;
+}
+
+cite::before {
+    display: none;
+}
