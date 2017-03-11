@@ -41,11 +41,11 @@ h3 {
     color: $orange;
     font-weight: 700;
     
-    @media ($breakpoint-small) {
+    @media ($breakpoint-medium) {
         font-size: 18px;
     }
     
-    @media ($breakpoint-medium) {
+    @media ($breakpoint-large) {
         font-size: 20px;
     }
 }
