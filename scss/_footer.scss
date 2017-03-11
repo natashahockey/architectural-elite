@@ -1,6 +1,7 @@
 .site-footer {
     border-top: 2px solid $type;
     padding: 24px 0;
+    margin-top: 40px;
 }
 
 .footer-menu {
@@ -35,6 +36,7 @@
 
 .social-icons {
     list-style-type: none;
+    margin: 0;
     
     @media ($breakpoint-medium) {
         float: right;
