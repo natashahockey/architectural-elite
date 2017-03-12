@@ -41,6 +41,10 @@
     @media ($breakpoint-medium) {
         float: right;
     }
+    
+    @media ($breakpoint-large) {
+        margin-right: 16px;
+    }
 }
 
 .social-icons li {

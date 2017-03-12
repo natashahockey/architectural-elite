@@ -79,6 +79,11 @@
     }
 }
 
+.back-button:hover {
+    text-decoration: underline;
+    color: $type;
+}
+
 .back-button img {
     margin-right: 4px;
     width: 17.5px;
@@ -88,6 +93,7 @@
         width: auto;
         height: auto;
         margin-right: 10px;
+        margin-left: 16px;
     }
 }
 
