@@ -66,6 +66,10 @@
     padding: 0 24px;
 }
 
+.off-canvas.is-open {
+    z-index: 11;
+}
+
 .vertical.menu a {
     color: $blue;
     font-weight: 900;
