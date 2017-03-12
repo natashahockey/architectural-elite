@@ -10,170 +10,212 @@
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
 </head>
 <body>
+    
+    <div class="off-canvas-wrapper">
 
-    <header class="site-header">
-          
-        <div class="row">
-           
-            <div class="small-2 medium-3 large-2 columns">
+        <div class="off-canvas-wrapper-inner" data-off-canvas-wrapper>
 
-                <a href="#"><img src="assets/Logo.svg" alt="logo"></a>
+            <!-- off-canvas title bar for 'small' screen -->
+            <div class="title-bar" data-responsive-toggle="widemenu" data-hide-for="large">
+              <div class="title-bar-left">
+                <a href="#"><img src="assets/Logo-small.svg" alt="logo"></a>
+              </div>
+              <div class="title-bar-right">
+                <button class="menu-icon" type="button" data-open="offCanvasRight"></button>
+              </div>
+            </div>
+
+            <!-- off-canvas right menu -->
+            <div class="off-canvas position-right" id="offCanvasRight" data-off-canvas data-position="right">
+              <ul class="vertical dropdown menu" data-dropdown-menu>
+                <li><a href="right_item_1">ABOUT</a></li>
+                <li><a href="right_item_2">UPLOAD CV</a></li>
+                <li><a href="right_item_3">POST A JOB</a></li>
+                <li><a href="right_item_3">CONTACT</a></li>
+                <li><a href="right_item_3" class="button">LOG IN / SIGN UP</a></li>
+              </ul>
+            </div>
+
+            <!-- original content goes in this container -->
+            <div class="off-canvas-content" data-off-canvas-content>
+
+                <section class="main-section">
+
+                    <header id="widemenu" class="site-header">
+
+                        <div class="row">
+
+                            <div class="small-2 medium-3 large-2 columns">
+
+                                <a href="#"><img src="assets/Logo.svg" alt="logo"></a>
+
+                            </div>
+
+                            <nav class="large-7 large-offset-3 columns site-nav clearfix">
+
+                                <div class="site-nav-container">
+
+                                    <a href="#">ABOUT</a>
+                                    <a href="#">UPLOAD CV</a>
+                                    <a href="#">POST A JOB</a>
+                                    <a href="#">CONTACT</a>
+                                    <a href="#" class="button">LOG IN / SIGN UP</a>
+
+                                </div>
+
+                            </nav>
+
+                        </div>
+
+                    </header>
+
+                    <section class="hero home-hero">
+
+                        <h1 class="hero-title">The Global Architectural Recruitment Company</h1>
+
+                        <form class="row">
+
+                                <div class="medium-4 medium-offset-1 large-3 large-offset-2 columns home-form-offset">
+
+                                    <input type="text" name="title" placeholder="Job title">
+
+                                </div>
+
+                                <div class="medium-4 large-3 columns">
+
+                                    <input type="text" name="location" placeholder="Location">
+
+                                </div>
+
+                                <div class="medium-2 end large-1 columns button-center">
+
+                                    <input type="submit" class="button white" value="SEARCH">
+
+                                </div>
+
+                        </form>
+
+
+                        <a class="cv-button" href="mailto:cv@architecturalelite.com"><img src="assets/Upload.svg" alt="upload">Send us your CV</a>
+
+                    </section>
+
+                    <main>
+
+                        <div class="row">
+
+                            <section class="main-copy medium-7 large-6 large-offset-1 columns">
+
+                                    <h2 class="recruiters-title">Redefining and embracing the future of recruitment</h2>
+                                    <h3 class="recruiters-intro">Architectural Elite are the Global Architect and Engineering company of the future. We are industry leaders and pride ourselves on the following:</h3>
+                                    <p>Meeting actual briefs and tight deadlines, providing quick and thorough solutions in a cost effective manner, matching high end professionals with jobs in 24 hours, and providing great customer care.</p>
+
+                                    <div class="button-center button-center-small">
+
+                                        <a href="#" class="button">More about us</a>
+
+                                    </div>
+
+                            </section>
+
+                            <div class="stats-images medium-5 large-4 large-offset-1 columns">
+
+                                <img src="assets/index-image-1.svg" alt="75,000 vacancies">
+                                <img src="assets/index-image-2.svg" alt="24 hours guaranteed">
+                                <img src="assets/index-image-3.svg" alt="provide great care">
+
+                            </div>
+
+
+                        </div>
+
+
+                        <div class="row quote-block-row">
+
+                            <div class="medium-6 large-6 columns quote-block">
+
+                               <img src="assets/quote-marks.svg" alt="quote marks">
+                                <blockquote>It was a stressful time for me, I was relocating from Dubai to Saudi Arabia and I had been for many interviews. Architectural Elite got it right first time, I’ve for AE’s client for 2 years now, had a promotion and have actually started taking on staff and gone back to Carly and Hayley with great success, thank you girls!</blockquote>
+
+                                <cite>Khaled Mohammed, Team Leader</cite>
+
+                                <div class="button-center button-center-small">
+
+                                    <a href="#" class="button hollow blue">See all testimonials</a>
+
+                                </div>
+
+                            </div>
+
+                            <div class="medium-6 large-6 columns quote-block-image">&nbsp;</div>
+
+                        </div>
+
+                        <section class="row cta-tiles cta-tiles-home">
+
+                            <div class="medium-4 large-4 columns cta-tile cta-tile-light">
+
+                                <img src="assets/Search.svg" alt="Search icon">
+                                <h2>AE JOBS</h2>
+                                <a href="#" class="button hollow white">Find out more</a>
+
+                            </div>
+
+                           <div class="medium-4 large-4 columns cta-tile">
+
+                                <img src="assets/Speech.svg" alt="Speech icon">
+                                <h2>AE NEWS BLOG</h2>
+                                <a href="#" class="button hollow white">Find out more</a>
+
+                           </div>
+
+                           <div class="medium-4 large-4 columns cta-tile cta-tile-dark">
+
+                                <img src="assets/Monitor.svg" alt="Monitor icon">
+                                <h2>AE CHANNEL</h2>
+                                <a href="#" class="button hollow white">Find out more</a>
+
+                           </div>
+
+                        </section>
+                    </main>
+
+                    <footer class="site-footer clearfix">
+
+                        <nav class="footer-menu">
+
+                           <ul class="clearfix">
+
+                                <li><a href="">ABOUT</a></li>
+                                <li><a href="">UPLOAD CV</a></li>
+                                <li><a href="">POST A JOB</a></li>
+                                <li><a href="">LOG IN / SIGN UP</a></li>
+                                <li><a href="">CONTACT</a></li>
+
+                            </ul>
+
+                        </nav>
+
+                        <ul class="social-icons clearfix">
+                            <li><img src="assets/Facebook.svg" alt="facebook"></li>
+                            <li><img src="assets/Twitter.svg" alt="twitter"></li>
+                            <li><img src="assets/LinkedIn.svg" alt="linkedin"></li>
+                            <li><img src="assets/YouTube.svg" alt="youtube"></li>
+                        </ul>
+
+                    </footer>
+
+                </section>
+
+              </div>
 
             </div>
 
-            <nav class="large-7 large-offset-3 columns site-nav clearfix">
-                
-                <div class="site-nav-container">
-
-                    <a href="#">ABOUT</a>
-                    <a href="#">UPLOAD CV</a>
-                    <a href="#">POST A JOB</a>
-                    <a href="#">CONTACT</a>
-                    <a href="#" class="button">LOG IN / SIGN UP</a>
-                    
-                </div>
-
-            </nav>
-            
+        <!-- close wrapper, no more content after this -->
         </div>
+
+    </div>
     
-    </header>
-    
-    <section class="hero home-hero">
-        
-        <h1 class="hero-title">The Global Architectural Recruitment Company</h1>
-        
-        <form class="row">
-
-                <div class="medium-4 medium-offset-1 large-3 large-offset-2 columns home-form-offset">
-                    
-                    <input type="text" name="title" placeholder="Job title">
-                
-                </div>
-                
-                <div class="medium-4 large-3 columns">
-                    
-                    <input type="text" name="location" placeholder="Location">
-                
-                </div>
-                
-                <div class="medium-2 end large-1 columns button-center">
-                    
-                    <input type="submit" class="button white" value="SEARCH">
-                    
-                </div>
-            
-        </form>
-        
-        
-        <a class="cv-button" href="mailto:cv@architecturalelite.com"><img src="assets/Upload.svg" alt="upload">Send us your CV</a>
-        
-    </section>
-    
-    <main>
-        
-        <div class="row">
-           
-            <section class="main-copy medium-7 large-6 large-offset-1 columns">
-                
-                    <h2 class="recruiters-title">Redefining and embracing the future of recruitment</h2>
-                    <h3 class="recruiters-intro">Architectural Elite are the Global Architect and Engineering company of the future. We are industry leaders and pride ourselves on the following:</h3>
-                    <p>Meeting actual briefs and tight deadlines, providing quick and thorough solutions in a cost effective manner, matching high end professionals with jobs in 24 hours, and providing great customer care.</p>
-                    
-                    <div class="button-center button-center-small">
-                    
-                        <a href="#" class="button">More about us</a>
-                    
-                    </div>
-                
-            </section>
-            
-            <div class="stats-images medium-5 large-4 large-offset-1 columns">
-                   
-                <img src="assets/index-image-1.svg" alt="75,000 vacancies">
-                <img src="assets/index-image-2.svg" alt="24 hours guaranteed">
-                <img src="assets/index-image-3.svg" alt="provide great care">
-            
-            </div>
-            
-            
-        </div>
-        
-        
-        <div class="row quote-block-row">
-           
-            <div class="medium-6 large-6 columns quote-block">
-
-               <img src="assets/quote-marks.svg" alt="quote marks">
-                <blockquote>It was a stressful time for me, I was relocating from Dubai to Saudi Arabia and I had been for many interviews. Architectural Elite got it right first time, I’ve for AE’s client for 2 years now, had a promotion and have actually started taking on staff and gone back to Carly and Hayley with great success, thank you girls!</blockquote>
-
-                <cite>Khaled Mohammed, Team Leader</cite>
-
-                <div class="button-center button-center-small">
-
-                    <a href="#" class="button hollow blue">See all testimonials</a>
-
-                </div>
-
-            </div>
-                
-            <div class="medium-6 large-6 columns quote-block-image">&nbsp;</div>
-                
-        </div>
-        
-        <section class="row cta-tiles cta-tiles-home">
-
-            <div class="medium-4 large-4 columns cta-tile cta-tile-light">
-
-                <img src="assets/Search.svg" alt="Search icon">
-                <h2>AE JOBS</h2>
-                <a href="#" class="button hollow white">Find out more</a>
-
-            </div>
-
-           <div class="medium-4 large-4 columns cta-tile">
-
-                <img src="assets/Speech.svg" alt="Speech icon">
-                <h2>AE NEWS BLOG</h2>
-                <a href="#" class="button hollow white">Find out more</a>
-
-           </div>
-
-           <div class="medium-4 large-4 columns cta-tile cta-tile-dark">
-
-                <img src="assets/Monitor.svg" alt="Monitor icon">
-                <h2>AE CHANNEL</h2>
-                <a href="#" class="button hollow white">Find out more</a>
-
-           </div>
-
-        </section>
-    </main>
-    
-    <footer class="site-footer clearfix">
-        
-        <nav class="footer-menu">
-          
-           <ul class="clearfix">
-                
-                <li><a href="">ABOUT</a></li>
-                <li><a href="">UPLOAD CV</a></li>
-                <li><a href="">POST A JOB</a></li>
-                <li><a href="">LOG IN / SIGN UP</a></li>
-                <li><a href="">CONTACT</a></li>
-                
-            </ul>
-            
-        </nav>
-        
-        <ul class="social-icons clearfix">
-            <li><img src="assets/Facebook.svg" alt="facebook"></li>
-            <li><img src="assets/Twitter.svg" alt="twitter"></li>
-            <li><img src="assets/LinkedIn.svg" alt="linkedin"></li>
-            <li><img src="assets/YouTube.svg" alt="youtube"></li>
-        </ul>
-    
-    </footer>
     <script src="js/vendor/jquery.js"></script>
     <script src="js/vendor/foundation.js"></script>
     <script src="js/vendor/what-input.js"></script>
