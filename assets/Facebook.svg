@@ -1,18 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="31px" height="32px" viewBox="0 0 31 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
-    <title>Icon / Social / Facebook</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Home-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-weight="normal" font-family="FontAwesome" letter-spacing="-0.86823529" font-size="36">
-        <g id="Home" transform="translate(-1125.000000, -2233.000000)" fill="#3B5998">
-            <g id="Footer" transform="translate(120.000000, 2189.000000)">
-                <g id="Icon-/-Social-/-Facebook" transform="translate(1005.000000, 42.000000)">
-                    <text>
-                        <tspan x="0" y="31"></tspan>
-                    </text>
-                </g>
-            </g>
-        </g>
-    </g>
-</svg>
+<svg width="31" height="32" viewBox="0 0 31 32" xmlns="http://www.w3.org/2000/svg"><title>Icon / Social / Facebook</title><path d="M29.15.714c.468 0 .87.168 1.205.503.335.334.502.736.502 1.205v27.442c0 .47-.167.87-.502 1.205-.335.334-.737.5-1.205.5h-7.855V19.62h3.997l.603-4.66h-4.6v-2.974c0-.75.157-1.312.472-1.687.314-.375.927-.563 1.838-.563l2.45-.02V5.556c-.843-.12-2.035-.18-3.575-.18-1.822 0-3.278.535-4.37 1.606-1.09 1.072-1.637 2.585-1.637 4.54v3.436h-4.018v4.66h4.018V31.57H1.708c-.47 0-.87-.166-1.206-.5C.167 30.733 0 30.332 0 29.863V2.422c0-.47.167-.87.502-1.205C.837.882 1.24.714 1.708.714H29.15z" fill="#3B5998" fill-rule="evenodd"/></svg>

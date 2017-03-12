@@ -1,18 +1,1 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<svg width="31px" height="32px" viewBox="0 0 31 32" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
-    <title>Icon / Social / LinkedIn</title>
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Home-Page" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" font-weight="normal" font-family="FontAwesome" letter-spacing="-0.86823529" font-size="36">
-        <g id="Home" transform="translate(-1233.000000, -2233.000000)" fill="#007BB5">
-            <g id="Footer" transform="translate(120.000000, 2189.000000)">
-                <g id="Icon-/-Social-/-LinkedIn" transform="translate(1113.000000, 42.000000)">
-                    <text>
-                        <tspan x="0" y="31"></tspan>
-                    </text>
-                </g>
-            </g>
-        </g>
-    </g>
-</svg>
+<svg width="31" height="32" viewBox="0 0 31 32" xmlns="http://www.w3.org/2000/svg"><title>Icon / Social / LinkedIn</title><path d="M4.76 26.55h4.642V12.606h-4.64V26.55zM9.704 8.307C9.69 7.612 9.45 7.036 8.98 6.58c-.47-.455-1.092-.683-1.868-.683-.777 0-1.41.228-1.9.683-.488.456-.732 1.032-.732 1.728 0 .683.238 1.256.713 1.718.476.462 1.095.693 1.858.693h.02c.792 0 1.428-.232 1.91-.694.482-.462.723-1.035.723-1.718zm6.89 6.328h-.04c.014-.02.027-.042.04-.063v.063zm0-2.03h-4.64c.04.885.04 5.532 0 13.943h4.64v-7.796c0-.508.048-.883.14-1.125.202-.47.504-.868.905-1.196.402-.328.898-.492 1.487-.492 1.554 0 2.33 1.05 2.33 3.154v7.453h4.64v-7.996c0-2.063-.488-3.623-1.466-4.68-.978-1.06-2.27-1.588-3.878-1.588-1.796 0-3.183.762-4.158 2.287v-1.966zM30.858 6.5v19.286c0 1.593-.566 2.956-1.697 4.088-1.132 1.132-2.495 1.697-4.09 1.697H5.787c-1.594 0-2.957-.564-4.088-1.696C.566 28.742 0 27.38 0 25.786V6.5c0-1.594.566-2.956 1.698-4.088C2.828 1.28 4.192.714 5.786.714H25.07c1.595 0 2.958.566 4.09 1.698 1.13 1.132 1.697 2.494 1.697 4.088z" fill="#007BB5" fill-rule="evenodd"/></svg>
