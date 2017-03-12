@@ -19,3 +19,47 @@
 .site-nav a:last-child {
     margin-right: 0;
 }
+
+.title-bar {
+    background: transparent;
+    padding: 16px;
+}
+
+.title-bar-home {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.title-bar-home .title-bar-right {
+    margin-top: 14px;
+}
+
+.title-bar-right {
+    margin-top: 10px;
+}
+
+.off-canvas {
+    background: white;
+    padding: 0 24px;
+}
+
+.vertical.menu a {
+    color: $blue;
+    font-weight: 900;
+    text-align: center;
+    padding: 20px 0;
+    outline: 0;
+}
+
+.vertical.menu a.button {
+    color: white;
+    padding: 16px 24px;
+    margin-top: 16px;
+}
+
+.menu-icon-blue::after {
+    background: $blue;
+    box-shadow: 0 7px 0 $blue, 0 14px 0 $blue;
+}
