@@ -64,3 +64,28 @@
     }
 }
 
+.bottom-bar {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    
+    @media ($breakpoint-medium) {
+        display: none;
+    }
+}
+
+.bottom-bar a {
+    width: 50%;
+    float: left;
+    padding: 16px;
+    color: white;
+    background-color: $blue;
+    text-align: center;
+    font-weight: 800;
+}
+
+.bottom-bar a:first-child {
+    border-right: 1px solid white;
+}
+
