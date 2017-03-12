@@ -6,13 +6,13 @@ The current site is outdated and is not responsive. The new site needs to confor
 The new site should focus on job search as a main priority and have its own personality with lots of call to actions and clear navigation.
 
 ## Links
-[Home page](index.html)
+[Home page](natashahockey.github.io/architectural-elite/index.html)
 
-[Job Listing page](job-listing.html)
+[Job Listing page](natashahockey.github.io/architectural-elite/job-listing.html)
 
-[Job Single page](job-single.html)
+[Job Single page](natashahockey.github.io/architectural-elite/job-single.html)
 
-[Recruiters page](recruiters.html)
+[Recruiters page]natashahockey.github.io/architectural-elite/(recruiters.html)
 
 ##Author
 - Natasha Hockey (Southampton Solent University)
