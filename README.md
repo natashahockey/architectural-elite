@@ -12,7 +12,7 @@ The new site should focus on job search as a main priority and have its own pers
 
 [Job Single page](https://natashahockey.github.io/architectural-elite/job-single.html)
 
-[Recruiters page](https://natashahockey.github.io/architectural-elite/(recruiters.html)
+[Recruiters page](https://natashahockey.github.io/architectural-elite/recruiters.html)
 
 ##Author
 - Natasha Hockey (Southampton Solent University)
