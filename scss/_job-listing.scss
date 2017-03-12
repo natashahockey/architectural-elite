@@ -23,6 +23,14 @@
     margin-bottom: 0;
 }
 
+.post-object a {
+    color: $blue;
+}
+
+.post-object a:hover {
+    text-decoration: underline;
+}
+
 .post-object h4 {
     @media ($breakpoint-medium){
         margin-bottom: 16px;

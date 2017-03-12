@@ -1,3 +1,21 @@
 .site-header {
     position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.site-nav-container {
+    float: right;
+}
+
+.site-nav a {
+    color: white;
+    float: left;
+    margin-right: 40px;
+    font-weight: 700;
+}
+
+.site-nav a:last-child {
+    margin-right: 0;
 }

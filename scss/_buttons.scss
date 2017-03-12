@@ -4,6 +4,12 @@
     padding: 16px 24px;
 }
 
+.button:hover {
+    background-color: white;
+    border-color: $orange;
+    color: $orange;
+}
+
 .button.hollow {
     border-color: $orange;
     color: $orange;
@@ -15,10 +21,20 @@
     background: transparent;
 }
 
+.button.hollow.white:hover {
+    background-color: white;
+    color: $blue;
+}
+
 .button.hollow.blue {
     border-color: $blue;
     color: $blue;
     background: transparent;
+}
+
+.button.hollow.blue:hover {
+    background-color: $blue;
+    color:white;
 }
 
 .button-group {
@@ -36,6 +52,12 @@
 
 .button-group .button:last-child {
     margin-left: 8px;
+}
+
+.hollow.button:hover {
+    background-color: $orange;
+    border-color: $orange;
+    color: white;
 }
 
 .back-button {
@@ -73,6 +95,12 @@
     background-color: $blue;
 }
 
+.button.blue:hover {
+    border-color: $blue;
+    color: $blue;
+    background-color: white;
+}
+
 .button-uppercase {
     text-transform: uppercase;
     font-weight: 900;
@@ -97,6 +125,12 @@
     color: $blue;
 }
 
+.button.white:hover {
+    border-color: white;
+    color:white;
+    background: transparent;
+}
+
 .cv-button {
     display: none;
     color: white;
@@ -113,6 +147,11 @@
     @media ($breakpoint-large) {
         margin-top: 56px;
     }
+}
+
+.cv-button:hover {
+    text-decoration: underline;
+    color:white;
 }
 
 .cv-button img {
